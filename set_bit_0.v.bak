@@ -1,0 +1,4 @@
+module set_bit_0(	input [63:0] a,
+						output [63:0] o);
+	assign o[0] = 0;			
+endmodule
